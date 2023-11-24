@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portofolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class ="logo" src="bootstrap-logo.png">
+      <a class="navbar-brand" href="index.html">Beranda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="portofolio.html">Portofolio</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="DSC00143.JPG" class="d-block w-100" alt="gambar1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kelas Organisasi</h5>
+          <p>Kelas organisasi merupakan wadah untuk mahasiswa belajar sebelum terjun langsung ke organisasi.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="DSC02504.JPG" class="d-block w-100" alt="gambar2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pengabdian Masyarakat</h5>
+          <p>Pengabdian kepada masyarakat dimana disini mengajar dan bersosialisasi pada lingkungan sekitar</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_9208.JPG" class="d-block w-100" alt="gambar3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Techno IT</h5>
+          <p>Techno IT merupakan kompetisi di bidang IT dimana mengembangkan teknologi pada mahasiswa IT Universitas Pancasila</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <form id="registrationForm">
+  <div class="mb-3">
+    <label for="exampleFormControlInputname" class="form-label">Nama Lengkap</label>
+    <input type="text" class="form-control" id="exampleFormControlInputName" placeholder="Nama Anda">
+  </div>
+  
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@gmail.com">
+  </div>
+  
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Masukan Pesan" rows="3"></textarea>
+  </div>  
+  <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('registrationForm').addEventListener('submit',function(event) {
+        event.preventDefault();
+        alert('Pendaftaran berhasil!');});
+  </script>
+
+<div class="card">
+  <h5 class="card-header">ABOUT US</h5>
+  <div class="card-body">
+    <h5 class="card-title">Informasi Terkait</h5>
+    <p>nadiyahh@gmail.com</p>
+    <p>@nadiaqasamaa</p>
+    <p class="card-text">Copyright ©2023</p>
+  </div>
+</div>
+</body>
+</html>

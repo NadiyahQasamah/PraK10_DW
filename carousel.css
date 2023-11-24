@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(249, 223, 185);
+}
+.container-fluid {
+    background-color: rgb(163, 126, 71);
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.carousel-caption {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 240, 221);
+}
+.btn{
+    background-color: rgb(199, 161, 127);
+    border-color: bisque;
+}
+.card{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(164, 101, 60);
+    margin-top: 100px;
+    background-color: rgb(251, 237, 215);
+}
+p{
+    padding: 0;
+    margin: 0;
+}
